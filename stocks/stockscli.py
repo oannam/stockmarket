@@ -9,7 +9,7 @@ import time
 import types
 import yaml
 
-from lib import formulas
+from stocks.lib import formulas
 
 AVAILABLE_FORMULAS = []
 for fct in dir(formulas):
@@ -201,7 +201,3 @@ class StocksCLI(cmd.Cmd):
         if self.file:
             self.file.close()
             self.file = None
-
-
-if __name__ == '__main__':
-    StocksCLI().cmdloop()

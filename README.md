@@ -9,8 +9,8 @@ Python2.7
 In order to run stockscli:
 
 ```
-cd stocks
-python stockscli.py
+python bootstrapper.py
+
 ```
 
 Usage:
